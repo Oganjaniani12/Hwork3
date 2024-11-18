@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Form</title>
+  </head>
+
+  <body
+    style="
+      background-image: url(bbim.jpg);
+      align-items: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    "
+  >
+    <div
+      style="
+        margin: auto;
+        margin-top: 150px;
+        background-color: rgb(225, 138, 247);
+        width: 400px;
+        border-radius: 1pc;
+      "
+    >
+      <form style="text-align: center">
+        <h2 style="padding: 15px; color: rgb(55, 0, 63)">Registration</h2>
+        <div>
+          <label for="firstName">first name:</label>
+          <input type="text" placeholder="FirstName" id="firstName" />
+          <br /><br />
+        </div>
+        <div>
+          <label for="lastName">lastName:</label>
+          <input type="text" placeholder="last name" id="lastName" />
+          <br /><br />
+        </div>
+        <div>
+          <label for="Age">Your Age</label>
+          <input type="number" placeholder="Your Age" id="Age" />
+          <br /><br />
+        </div>
+        <div>
+          <label for="Number">Phone Number</label>
+          <input type="Number" placeholder="PhoneNumber" id="Number" />
+          <br /><br />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" placeholder="Email" id="email" />
+          <br /><br />
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            maxlength="12"
+            minlength="7"
+            placeholder="Password"
+            id="password"
+          />
+          <br /><br />
+        </div>
+        <div>
+          <span>Gesnder:</span>
+          <label for="male">male</label>
+          <input type="radio" id="male" name="gender" />
+
+          <label for="female">female</label>
+          <input type="radio" id="female" name="gender" />
+        </div>
+        <br />
+        <div style="padding-bottom: 15px">
+          <input type="submit" />
+        </div>
+      </form>
+    </div>
+    <div style="text-align: center;padding-top: 15px;">
+      <a style="font-size: 24px; color: rgb(213, 255, 236)" href="index.html"
+        >Back to main page</a
+      >
+    </div>
+  </body>
+</html>
